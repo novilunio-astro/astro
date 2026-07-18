@@ -44,6 +44,14 @@
   summary::after{content:"+";color:var(--gold);font-size:20px;line-height:1}
   details[open] summary::after{content:"–"}
   details p{margin-top:12px;font-size:15px}
+  .spreads{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:10px}
+  .spread{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:6px;padding:26px 24px}
+  .spread h3{font-size:21px;margin-bottom:4px}
+  .spread .for{color:var(--gold);font-size:13px;letter-spacing:.05em;margin-bottom:12px}
+  .spread ul{list-style:none;font-size:14.5px;color:var(--ink-dim)}
+  .spread ul li{padding:6px 0 6px 22px;position:relative}
+  .spread ul li::before{content:"✦";position:absolute;left:0;color:var(--gold);font-size:11px}
+  .note{background:var(--bg-soft);border-left:2px solid var(--gold);padding:18px 22px;border-radius:0 6px 6px 0;font-size:15px;color:var(--ink-dim);margin:24px 0 0}
   footer{border-top:1px solid rgba(255,255,255,.06);padding:34px 0;font-size:13px;color:var(--ink-dim);text-align:center;margin-top:40px}
 </style>
 </head>
@@ -76,8 +84,77 @@
   </section>
 
   <section>
+    <h2>Примеры раскладов</h2>
+    <p>Вот популярные готовые расклады — а если вашего вопроса здесь нет, просто опишите ситуацию своими словами: <strong>я подберу или составлю расклад индивидуально под ваш запрос</strong>.</p>
+    <div class="spreads">
+      <div class="spread">
+        <h3>«Мысли, чувства, намерения»</h3>
+        <div class="for">про конкретного человека</div>
+        <ul>
+          <li>что сейчас между вами</li>
+          <li>что он/она думает и чувствует к вам</li>
+          <li>каковы его/её намерения</li>
+          <li>что мешает развитию отношений</li>
+          <li>совет от карт</li>
+        </ul>
+      </div>
+      <div class="spread">
+        <h3>«Бывший»</h3>
+        <div class="for">когда отношения закончились, а вопросы остались</div>
+        <ul>
+          <li>что он думает о вас сейчас</li>
+          <li>есть ли желание вернуться</li>
+          <li>его реальные действия, а не слова</li>
+          <li>что мешает примирению и есть ли смысл ждать</li>
+          <li>совет от карт</li>
+        </ul>
+      </div>
+      <div class="spread">
+        <h3>«Выбор»</h3>
+        <div class="for">когда вы между двумя вариантами</div>
+        <ul>
+          <li>что будет, если выбрать первый вариант</li>
+          <li>что будет, если выбрать второй</li>
+          <li>скрытые факторы, которые вы не учитываете</li>
+          <li>совет от карт</li>
+        </ul>
+      </div>
+      <div class="spread">
+        <h3>«Код отношений»</h3>
+        <div class="for">про вас и любовь в целом</div>
+        <ul>
+          <li>какой вы партнёр в любви</li>
+          <li>что мешает построить гармоничные отношения</li>
+          <li>что поможет привлечь любовь</li>
+        </ul>
+      </div>
+      <div class="spread">
+        <h3>«Зеркало души»</h3>
+        <div class="for">для самопознания</div>
+        <ul>
+          <li>в чём ваша главная сила</li>
+          <li>что мешает раскрыть потенциал</li>
+          <li>куда направить энергию сейчас</li>
+          <li>совет от карт</li>
+        </ul>
+      </div>
+      <div class="spread">
+        <h3>«Прогноз на месяц»</h3>
+        <div class="for">общий взгляд на ближайшее будущее</div>
+        <ul>
+          <li>общий фон месяца</li>
+          <li>личная жизнь · финансы · события</li>
+          <li>на что обратить внимание</li>
+          <li>совет от карт</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note">💫 Не нашли свой вопрос? Так и напишите — обсудим ситуацию, и я предложу расклад, который ответит именно на ваш запрос. Подбор расклада бесплатный.</div>
+  </section>
+
+  <section>
     <h2>Как проходит</h2>
-    <p><strong>1.</strong> Вы описываете ситуацию и формулируете вопрос (помогу переформулировать, если нужно — от точности вопроса зависит качество ответа).</p>
+    <p><strong>1.</strong> Вы описываете ситуацию и формулируете вопрос (помогу переформулировать, если нужно — от точности вопроса зависит качество ответа). Расклад под ваш запрос подберу сама — это бесплатно.</p>
     <p><strong>2.</strong> Я делаю расклад и подробную трактовку.</p>
     <p><strong>3.</strong> Вы получаете ответ письменно или голосовыми сообщениями (+ фото расклада).</p>
   </section>
