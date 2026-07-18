@@ -71,7 +71,7 @@
   .steps{background:var(--bg-soft)}
   .step-list{margin-top:48px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;counter-reset:step}
   .step{position:relative;padding-top:18px}
-  .step::before{counter-increment:step;content:"0" counter(step);font-family:'Cormorant Garamond',serif;font-size:52px;color:transparent;-webkit-text-stroke:1px var(--gold);opacity:.75;display:block;margin-bottom:10px}
+  .step::before{counter-increment:step;content:counter(step);font-family:'Cormorant Garamond',serif;font-size:52px;color:transparent;-webkit-text-stroke:1px var(--gold);opacity:.75;display:block;margin-bottom:10px}
   .step h3{font-size:20px;margin-bottom:8px}
   .step p{color:var(--ink-dim);font-size:15px}
   .cta{text-align:center;background:radial-gradient(ellipse at 50% 120%,rgba(212,180,122,.14),transparent 60%),var(--bg)}
@@ -158,7 +158,7 @@
         <h3>Destiny matrix</h3>
         <p>A reading based on your birth date through 22 arcana: life purpose, family patterns, money channel and love line.</p>
         <div class="price">from 40 € <!-- TODO: price --></div>
-        <div class="dur">voice or file + matrix chart</div>
+        <div class="dur">1–1.5 hour session + matrix chart</div>
       </div>
       <div class="card reveal">
         <div class="glyph">☽</div>

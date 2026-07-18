@@ -84,7 +84,7 @@
   .steps{background:var(--bg-soft)}
   .step-list{margin-top:48px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;counter-reset:step}
   .step{position:relative;padding-top:18px}
-  .step::before{counter-increment:step;content:"0" counter(step);font-family:'Cormorant Garamond',serif;font-size:52px;color:transparent;-webkit-text-stroke:1px var(--gold);opacity:.75;display:block;margin-bottom:10px}
+  .step::before{counter-increment:step;content:counter(step);font-family:'Cormorant Garamond',serif;font-size:52px;color:transparent;-webkit-text-stroke:1px var(--gold);opacity:.75;display:block;margin-bottom:10px}
   .step h3{font-size:20px;margin-bottom:8px}
   .step p{color:var(--ink-dim);font-size:15px}
 
