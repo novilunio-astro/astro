@@ -69,13 +69,13 @@
 
   /* services */
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:48px}
-  .card{background:var(--card);border:1px solid rgba(255,255,255,.06);padding:36px 30px;border-radius:6px;transition:transform .3s,border-color .3s;display:flex;flex-direction:column}
+  .card{background:var(--card);border:1px solid rgba(255,255,255,.06);padding:36px 30px;border-radius:6px;transition:transform .3s,border-color .3s;display:flex;flex-direction:column;text-align:center}
   .card:hover{transform:translateY(-5px);border-color:var(--line)}
   .card .glyph{font-size:24px;color:var(--gold);margin-bottom:6px;text-align:center}
   .card h3{font-size:23px;margin-bottom:12px}
   .card p{color:var(--ink-dim);font-size:15px;flex:1}
   .card .price{margin-top:22px;color:var(--gold);font-size:15px;letter-spacing:.06em}
-  .card .dur{color:var(--ink-dim);font-size:13px;margin-top:4px}
+  .card .dur{color:var(--ink-dim);font-size:13px;margin-top:4px;min-height:44px}
   .card .more{display:inline-block;margin-top:16px;font-size:13px;letter-spacing:.08em;color:var(--gold);border-bottom:1px solid var(--line);padding-bottom:2px;transition:border-color .3s}
   .card .more:hover{border-color:var(--gold)}
   .card .gift{margin-top:12px;color:var(--gold);font-size:14px}
